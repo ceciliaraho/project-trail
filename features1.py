@@ -1,0 +1,13 @@
+# features.py
+
+
+from script_features.features_windowing import extract_all_features
+from script_features.features_normalization import normalize_all_versions
+from script_features.features_debug import plot_peaks_by_section
+
+# Se ti serve altrove:
+from script_features.features_breath import get_peaks_from_bf, resp_amplitude_features, resp_spectral_features
+from script_features.features_hr import get_peaks_from_hr, hr_features_from_wave
+from script_features.features_coupling import hr_bf_coupling
+from script_features.features_eda import eda_basic_features
+from script_features.features_emg import emg_basic_features
